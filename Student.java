@@ -12,7 +12,19 @@ public class Student {
         this.formatieDeStudiu = formatieDeStudiu;
     }
 
-    String toStringStudent() {
-        return numarMatricol + " " + prenume + " " + nume + " " + formatieDeStudiu;
+    public int  getNumarMatricol() {
+        return  numarMatricol;
+    }
+
+    public String getPrenume() {
+        return prenume;
+    }
+
+    public String getNume() {
+        return nume;
+    }
+
+    public String getFormatieDeStudiu() {
+        return formatieDeStudiu;
     }
 }
