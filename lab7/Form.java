@@ -5,7 +5,7 @@ public class Form {
 
     private static int instanceCount = 0;
 
-    public Form(String color) {
+    public Form() {
         this.color = color;
         instanceCount++;
     }

@@ -2,7 +2,7 @@ import java.util.*;
 
 public class Main {
 
-    // 🔹 2.5.2 - O(n)
+    //z
     public static boolean existaStudent(List<Student> lista, Student cautat) {
 
         for (Student s : lista) {

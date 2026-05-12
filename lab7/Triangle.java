@@ -4,11 +4,11 @@ public class Triangle extends Form{
     private float base, height;
 
     public Triangle() {
-        super();
+            super();
     }
 
     public Triangle (float base, float height, String color) {
-        super(color);
+        super();
         this.base = base;
         this.height = height;
     }
